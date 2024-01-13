@@ -170,3 +170,73 @@ nav ul li a {
   padding: 20px 30px 0 0;
   cursor: pointer;
 }
+
+/* ================Description part style================= */
+#description {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+#description h2 {
+  color: #0A0826;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+#description p {
+  color: #6C6C6C;
+  font-feature-settings: 'clig'off, 'liga'off;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 16px 0;
+}
+
+#description a {
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: center;
+  gap: 8px;
+  background: #E02C6D;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+/* ==========Footer Part Style============= */
+footer {
+  background-color: #0A0826;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_content {
+  text-align: center;
+}
+
+.footer_content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer_content p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #D9DBE1;
+}
+
+.footer_content ul {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer_content ul li a {
+  color: #D9DBE1;
+}
